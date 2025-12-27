@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header class="position-relative pt-4">
+    <nav class="navbar position-absolute start-50 translate-middle-x top-100  navbar-expand-lg bg-body-tertiary container rounded-5 custom-navbar">
+      <div class="container px-3 py-1 ">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><img src="./assets/images/logo.webp" alt=""></a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M3.5 7.875C3.5 7.39175 3.89175 7 4.375 7H23.625C24.1082 7 24.5 7.39175 24.5 7.875C24.5 8.35825 24.1082 8.75 23.625 8.75H4.375C3.89175 8.75 3.5 8.35825 3.5 7.875ZM3.5 14C3.5 13.5168 3.89175 13.125 4.375 13.125H23.625C24.1082 13.125 24.5 13.5168 24.5 14C24.5 14.4832 24.1082 14.875 23.625 14.875H4.375C3.89175 14.875 3.5 14.4832 3.5 14ZM13.125 20.125C13.125 19.6418 13.5168 19.25 14 19.25H23.625C24.1082 19.25 24.5 19.6418 24.5 20.125C24.5 20.6082 24.1082 21 23.625 21H14C13.5168 21 13.125 20.6082 13.125 20.125Z"
+                fill="#333333" />
+            </svg>
+
+          </span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <!-- Center Menu -->
+          <ul class="navbar-nav mx-auto mb-lg-0 text-center text-lg-start">
+            <li class=" custom-nav-item">
+              <a class="custom-nav-link active text-white " aria-current="page" href="/">Home</a>
+            </li>
+            <li class=" custom-nav-item">
+              <a class="custom-nav-link text-white " href="about.html">Careers</a>
+            </li>
+            <li class=" custom-nav-item">
+              <a class="custom-nav-link text-white " href="#">About</a>
+            </li>
+            <li class=" custom-nav-item">
+              <a class="custom-nav-link text-white " href="#">Security</a>
+            </li>
+          </ul>
+
+          <!-- Right Buttons -->
+          <div class="d-flex flex-column flex-lg-row gap-2 justify-content-sm-center">
+            <button class="btn btn-outline-primary rounded-5 auth-btn">Signup</button>
+            <button class="btn btn-primary rounded-5 auth-btn ">Login</button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <main class="main-content">
+    <section class="hero-section">
+
+      <div class="container d-flex flex-column flex-lg-row">
+        <div class="left ">
+          <span class="d-flex gap-2 align-items-center justify-content-center rounded-5 no-req-pill mx-auto mx-lg-0">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8.60288 3.79876C9.42705 2.85093 10.6433 2.25 12 2.25C13.3566 2.25 14.5728 2.85087 15.397 3.79861C16.6501 3.71106 17.9352 4.14616 18.8946 5.10557C19.854 6.06498 20.2891 7.35009 20.2016 8.60319C21.1492 9.42735 21.75 10.6435 21.75 12C21.75 13.3568 21.149 14.5731 20.2011 15.3973C20.2884 16.6502 19.8533 17.935 18.8941 18.8943C17.9348 19.8535 16.65 20.2886 15.3971 20.2013C14.5729 21.1491 13.3567 21.75 12 21.75C10.6434 21.75 9.4272 21.1491 8.60304 20.2014C7.34992 20.289 6.0648 19.8539 5.10537 18.8945C4.14596 17.935 3.71086 16.6499 3.79841 15.3968C2.85079 14.5726 2.25 13.3565 2.25 12C2.25 10.6434 2.85085 9.42723 3.79855 8.60306C3.7111 7.35005 4.14621 6.06507 5.10554 5.10574C6.06488 4.1464 7.34987 3.71129 8.60288 3.79876ZM15.6103 10.1859C15.8511 9.84887 15.773 9.38046 15.4359 9.1397C15.0989 8.89894 14.6305 8.97701 14.3897 9.31407L11.1543 13.8436L9.53033 12.2197C9.23744 11.9268 8.76256 11.9268 8.46967 12.2197C8.17678 12.5126 8.17678 12.9874 8.46967 13.2803L10.7197 15.5303C10.8756 15.6862 11.0921 15.7656 11.3119 15.7474C11.5316 15.7293 11.7322 15.6153 11.8603 15.4359L15.6103 10.1859Z"
+                fill="#CAFF33" />
+            </svg>
+            <p class="m-0 text-white fw-light">No LLC Required, No Credit Check.</p>
+          </span>
+          <h2 class="text-white hero-heading">
+            Welcome to YourBank <br class="d-none d-lg-flex">
+            Empowering Your <span>Financial <br class="d-none d-lg-flex"> Journey</span>
+          </h2>
+          <p class="hero-detail text-white fw-light">
+            At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and
+            businesses to achieve their financial goals. We are committed to delivering personalized and innovative
+            services that prioritize our customers' needs.
+          </p>
+        </div>
+        <div class="right">
+          <img src="./assets//images//hero-right-bg.webp" class="position-absolute  object-fit-cover top-0 start-0 end-0 bottom-0 h-100 w-100 opacity-50" alt="">
+          <h3>Your Transactions</h3>
+          <div class="transaction position-absolute   d-flex align-items-center justify-content-between h-fit">
+            <span class="d-flex gap-3 h-fit">
+              <figure class="rounded-5 d-flex align-items-center justify-content-center m-0 p-2 h-fit">
+                <svg class="m-1" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M13.7344 2.33017C13.4412 2.64598 13.4595 3.13972 13.7753 3.43297L15.9607 5.46225L7.02316 5.46225C6.5922 5.46225 6.24283 5.81162 6.24283 6.24259C6.24283 6.67355 6.5922 7.02292 7.02316 7.02292L15.9607 7.02292L13.7753 9.0522C13.4595 9.34546 13.4412 9.8392 13.7344 10.155C14.0277 10.4708 14.5214 10.4891 14.8372 10.1958L18.4788 6.81441C18.6378 6.66676 18.7281 6.45957 18.7281 6.24259C18.7281 6.0256 18.6378 5.81841 18.4788 5.67076L14.8372 2.28932C14.5214 1.99607 14.0277 2.01436 13.7344 2.33017ZM7.07476 10.6537C6.78151 10.3379 6.28777 10.3196 5.97196 10.6129L2.33041 13.9943C2.1714 14.142 2.08105 14.3491 2.08105 14.5661C2.08105 14.7831 2.1714 14.9903 2.33041 15.138L5.97196 18.5194C6.28777 18.8126 6.78151 18.7944 7.07476 18.4785C7.36801 18.1627 7.34973 17.669 7.03392 17.3757L4.84853 15.3465H13.786C14.217 15.3465 14.5664 14.9971 14.5664 14.5661C14.5664 14.1352 14.217 13.7858 13.786 13.7858H4.84853L7.03392 11.7565C7.34973 11.4633 7.36801 10.9695 7.07476 10.6537Z"
+                  fill="#1C1C1C" />
+                </svg>
+                
+              </figure>
+              <span>
+                <p class="m-0 text-white">Transaction</p>
+                <p class="m-0 text-white">Joel Kenley</p>
+              </span>
+            </span>
+            
+            <p class="pricing text-white h-fit m-0 mt-3">-$68.00</p>
+          </div>
+          <div class="transaction position-absolute   d-flex align-items-center justify-content-between h-fit">
+            <span class="d-flex gap-3 h-fit">
+              <figure class="rounded-5 d-flex align-items-center justify-content-center m-0 p-2 h-fit">
+                <svg class="m-1" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.7344 2.33017C13.4412 2.64598 13.4595 3.13972 13.7753 3.43297L15.9607 5.46225L7.02316 5.46225C6.5922 5.46225 6.24283 5.81162 6.24283 6.24259C6.24283 6.67355 6.5922 7.02292 7.02316 7.02292L15.9607 7.02292L13.7753 9.0522C13.4595 9.34546 13.4412 9.8392 13.7344 10.155C14.0277 10.4708 14.5214 10.4891 14.8372 10.1958L18.4788 6.81441C18.6378 6.66676 18.7281 6.45957 18.7281 6.24259C18.7281 6.0256 18.6378 5.81841 18.4788 5.67076L14.8372 2.28932C14.5214 1.99607 14.0277 2.01436 13.7344 2.33017ZM7.07476 10.6537C6.78151 10.3379 6.28777 10.3196 5.97196 10.6129L2.33041 13.9943C2.1714 14.142 2.08105 14.3491 2.08105 14.5661C2.08105 14.7831 2.1714 14.9903 2.33041 15.138L5.97196 18.5194C6.28777 18.8126 6.78151 18.7944 7.07476 18.4785C7.36801 18.1627 7.34973 17.669 7.03392 17.3757L4.84853 15.3465H13.786C14.217 15.3465 14.5664 14.9971 14.5664 14.5661C14.5664 14.1352 14.217 13.7858 13.786 13.7858H4.84853L7.03392 11.7565C7.34973 11.4633 7.36801 10.9695 7.07476 10.6537Z"
+                    fill="#1C1C1C" />
+                </svg>
+                
+              </figure>
+              <span>
+                <p class="m-0 text-white">Transaction</p>
+                <p class="m-0 text-white">Mark Smith</p>
+              </span>
+            </span>
+            
+            <p class="pricing text-white h-fit m-0 mt-3">-$68.00</p>
+          </div>
+          <div class="transaction position-absolute    d-flex align-items-center justify-content-between h-fit">
+            <span class="d-flex gap-3 h-fit">
+              <figure class="rounded-5 d-flex align-items-center justify-content-center m-0 p-2 h-fit">
+                <svg class="m-1" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.7344 2.33017C13.4412 2.64598 13.4595 3.13972 13.7753 3.43297L15.9607 5.46225L7.02316 5.46225C6.5922 5.46225 6.24283 5.81162 6.24283 6.24259C6.24283 6.67355 6.5922 7.02292 7.02316 7.02292L15.9607 7.02292L13.7753 9.0522C13.4595 9.34546 13.4412 9.8392 13.7344 10.155C14.0277 10.4708 14.5214 10.4891 14.8372 10.1958L18.4788 6.81441C18.6378 6.66676 18.7281 6.45957 18.7281 6.24259C18.7281 6.0256 18.6378 5.81841 18.4788 5.67076L14.8372 2.28932C14.5214 1.99607 14.0277 2.01436 13.7344 2.33017ZM7.07476 10.6537C6.78151 10.3379 6.28777 10.3196 5.97196 10.6129L2.33041 13.9943C2.1714 14.142 2.08105 14.3491 2.08105 14.5661C2.08105 14.7831 2.1714 14.9903 2.33041 15.138L5.97196 18.5194C6.28777 18.8126 6.78151 18.7944 7.07476 18.4785C7.36801 18.1627 7.34973 17.669 7.03392 17.3757L4.84853 15.3465H13.786C14.217 15.3465 14.5664 14.9971 14.5664 14.5661C14.5664 14.1352 14.217 13.7858 13.786 13.7858H4.84853L7.03392 11.7565C7.34973 11.4633 7.36801 10.9695 7.07476 10.6537Z"
+                    fill="#1C1C1C" />
+                </svg>
+
+              </figure>
+              <span>
+                <p class="m-0 text-white">Transaction</p>
+                <p class="m-0 text-white">Mark Smith</p>
+              </span>
+            </span>
+            
+            <p class="pricing text-white h-fit m-0 mt-3">-$68.00</p>
+          </div>
+          <h3 class="">Your Transactions</h3>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="ourproduct">
+
+    </section>
+  </main>
+</body>
+
+</html>
