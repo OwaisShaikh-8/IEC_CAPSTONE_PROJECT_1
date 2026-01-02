@@ -19,7 +19,9 @@ h4,
 h5 {
   margin: 0;
 }
-
+main{
+  overflow-x: hidden;
+}
 .container {
   max-width: 1596px;
   width: 100%;
