@@ -32,6 +32,9 @@ main{
 }
 
 /* ================= NAVBAR ================= */
+ 
+
+
 
 .custom-navbar {
   background-color: #1c1c1c !important;
@@ -541,6 +544,12 @@ padding: 10px;
 /* ================= RESPONSIVE ================= */
 
 @media (max-width: 1250px) {
+
+
+  .custom-navbar{
+    width: 90%;
+  }
+
   .navbar-brand img {
     width: 101px;
     height: 26px;
