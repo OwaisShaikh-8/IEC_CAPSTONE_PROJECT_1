@@ -82,6 +82,7 @@ main{
   background-color: #caff33;
   border: none !important;
   outline: none !important;
+  border-radius: 82px;
 }
 
 /* ================= HERO SECTION ================= */
