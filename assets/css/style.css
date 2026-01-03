@@ -40,6 +40,7 @@ main{
   background-color: #1c1c1c !important;
   border: 1px solid #262626 !important;
   top: 46px;
+  
 }
 
 .custom-nav-item {
@@ -547,7 +548,7 @@ padding: 10px;
 
 
   .custom-navbar{
-    width: 90%;
+    width: 90% !important;
   }
 
   .navbar-brand img {
