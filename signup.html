@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./assets/css/testimonials.css">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <!-- Swiper CSS -->
+    
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" /> 
+    <link rel="stylesheet" href="./assets/css/signup.css">
+</head>
+
+<body>
+    <section class="login-section">
+        <div class="login-content-holder d-flex flex-column align-items-center">
+            <img src="./assets//images/polka-dots-green.png" class="abstract-design position-absolute top-0 end-0"
+                alt="">
+            <h2>Login</h2>
+            <p class="greet">Welcome back! Please log in to access your account.</p>
+
+
+            <!-- <form class="container my-5 input-fields">
+                <div class="row  g-4">
+
+                    <div class="col-12 col-lg-6">
+                        <div class=""> <span><input placeholder="Enter your Email" type="email"></span></div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class=""><span><input placeholder="Enter your Email" type="email"></span></div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class=""><span><input placeholder="Enter your Email" type="email"></span></div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class=""> <span class="d-flex"><input placeholder="Enter your Password"
+                                    type="password"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.001 15C13.6578 15 15.001 13.6569 15.001 12C15.001 10.3431 13.6578 9 12.001 9C10.3441 9 9.00098 10.3431 9.00098 12C9.00098 13.6569 10.3441 15 12.001 15Z"
+                                        fill="#59595A" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M1.32439 11.4467C2.81164 6.97571 7.02889 3.75 12.0015 3.75C16.9718 3.75 21.1874 6.97271 22.6765 11.4405C22.7969 11.8015 22.797 12.1922 22.6769 12.5533C21.1896 17.0243 16.9723 20.25 11.9997 20.25C7.02945 20.25 2.81381 17.0273 1.32472 12.5595C1.20437 12.1985 1.20426 11.8078 1.32439 11.4467ZM17.251 12C17.251 14.8995 14.9005 17.25 12.001 17.25C9.10148 17.25 6.75098 14.8995 6.75098 12C6.75098 9.1005 9.10148 6.75 12.001 6.75C14.9005 6.75 17.251 9.1005 17.251 12Z"
+                                        fill="#59595A" />
+                                </svg>
+                            </span></div>
+                    </div>
+
+                </div>
+            </form> -->
+
+
+
+
+            <!-- <div class="input-fields d-flex g-5">
+                <span><input placeholder="Enter your Email" type="email"></span>
+                <span class="d-flex"><input placeholder="Enter your Password" type="password"><svg width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.001 15C13.6578 15 15.001 13.6569 15.001 12C15.001 10.3431 13.6578 9 12.001 9C10.3441 9 9.00098 10.3431 9.00098 12C9.00098 13.6569 10.3441 15 12.001 15Z"
+                            fill="#59595A" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1.32439 11.4467C2.81164 6.97571 7.02889 3.75 12.0015 3.75C16.9718 3.75 21.1874 6.97271 22.6765 11.4405C22.7969 11.8015 22.797 12.1922 22.6769 12.5533C21.1896 17.0243 16.9723 20.25 11.9997 20.25C7.02945 20.25 2.81381 17.0273 1.32472 12.5595C1.20437 12.1985 1.20426 11.8078 1.32439 11.4467ZM17.251 12C17.251 14.8995 14.9005 17.25 12.001 17.25C9.10148 17.25 6.75098 14.8995 6.75098 12C6.75098 9.1005 9.10148 6.75 12.001 6.75C14.9005 6.75 17.251 9.1005 17.251 12Z"
+                            fill="#59595A" />
+                    </svg>
+                </span>
+            </div> -->
+
+            <a href="" class="pass-reset">Forget Password?</a>
+
+            <div class="auth-ctas d-flex flex-column ">
+                <button>Login</button>
+                <button>Signup</button>
+            </div>
+
+            <div class="continue-with d-flex align-items-center gap-3">
+                <div class="hr"></div>
+                <p class="text-capitalize">Or Continue with</p>
+                <div class="hr"></div>
+            </div>
+
+
+            <div class="d-flex gap-5 mt-3">
+                <figure class="icon-back">
+                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_67_207)">
+                                <path
+                                    d="M29.7083 15.3456C29.7083 14.3259 29.6256 13.3007 29.4493 12.2976H15.3008V18.0738H23.4029C23.0667 19.9368 21.9864 21.5848 20.4046 22.632V26.3799H25.2383C28.0768 23.7674 29.7083 19.9092 29.7083 15.3456Z"
+                                    fill="#CAFF33" />
+                                <path
+                                    d="M15.2989 30.0012C19.3445 30.0012 22.7562 28.6728 25.242 26.38L20.4082 22.6321C19.0634 23.547 17.3272 24.0651 15.3044 24.0651C11.3911 24.0651 8.07311 21.425 6.88259 17.8755H1.89453V21.7392C4.44092 26.8044 9.6274 30.0012 15.2989 30.0012Z"
+                                    fill="#CAFF33" />
+                                <path
+                                    d="M6.87895 17.8754C6.25063 16.0124 6.25063 13.9952 6.87895 12.1322V8.26855H1.89641C-0.231095 12.507 -0.231095 17.5006 1.89641 21.7391L6.87895 17.8754Z"
+                                    fill="#CAFF33" />
+                                <path
+                                    d="M15.2989 5.93708C17.4374 5.90401 19.5043 6.70871 21.0531 8.18583L25.3356 3.90327C22.6239 1.35688 19.0248 -0.0430825 15.2989 0.00101083C9.6274 0.00101083 4.44092 3.19778 1.89453 8.26851L6.87708 12.1322C8.06209 8.57716 11.3856 5.93708 15.2989 5.93708Z"
+                                    fill="#CAFF33" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_67_207">
+                                    <rect width="30" height="30" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                </figure>
+                <figure class="icon-back">
+                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_67_204)">
+                                <path
+                                    d="M30 15C30 6.71572 23.2843 0 15 0C6.71572 0 0 6.71572 0 15C0 22.4868 5.48525 28.6925 12.6562 29.8178V19.3359H8.84766V15H12.6562V11.6953C12.6562 7.93594 14.8957 5.85938 18.322 5.85938C19.9626 5.85938 21.6797 6.15234 21.6797 6.15234V9.84375H19.7883C17.925 9.84375 17.3438 11.0001 17.3438 12.1875V15H21.5039L20.8389 19.3359H17.3438V29.8178C24.5147 28.6925 30 22.4868 30 15Z"
+                                    fill="#CAFF33" />
+                                <path
+                                    d="M20.8389 19.3359L21.5039 15H17.3438V12.1875C17.3438 11.0013 17.925 9.84375 19.7883 9.84375H21.6797V6.15234C21.6797 6.15234 19.9632 5.85938 18.322 5.85938C14.8957 5.85938 12.6562 7.93594 12.6562 11.6953V15H8.84766V19.3359H12.6562V29.8178C14.2093 30.0607 15.7907 30.0607 17.3438 29.8178V19.3359H20.8389Z"
+                                    fill="#1C1C1C" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_67_204">
+                                    <rect width="30" height="30" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                </figure>
+                <figure class="icon-back">
+                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.0533 21.4311C25.6374 22.3919 25.1451 23.2763 24.5748 24.0893C23.7973 25.1978 23.1608 25.9651 22.6702 26.3911C21.9097 27.0905 21.095 27.4487 20.2225 27.469C19.5961 27.469 18.8407 27.2908 17.9614 26.9292C17.0792 26.5694 16.2685 26.3911 15.5272 26.3911C14.7498 26.3911 13.916 26.5694 13.0241 26.9292C12.1309 27.2908 11.4114 27.4792 10.8612 27.4979C10.0245 27.5335 9.19055 27.1652 8.35811 26.3911C7.8268 25.9277 7.16224 25.1333 6.36612 24.0079C5.51195 22.8061 4.80971 21.4124 4.25955 19.8236C3.67036 18.1074 3.375 16.4456 3.375 14.8367C3.375 12.9938 3.77323 11.4043 4.57087 10.0722C5.19775 9.00232 6.03172 8.15833 7.0755 7.53875C8.11928 6.91917 9.24708 6.60344 10.4616 6.58324C11.1262 6.58324 11.9977 6.78881 13.0807 7.19281C14.1606 7.59817 14.854 7.80373 15.158 7.80373C15.3853 7.80373 16.1556 7.56337 17.4615 7.08417C18.6964 6.63977 19.7387 6.45576 20.5925 6.52824C22.9062 6.71497 24.6444 7.62702 25.8004 9.27018C23.7311 10.5239 22.7076 12.28 22.7279 14.5327C22.7466 16.2874 23.3832 17.7476 24.6342 18.9069C25.2011 19.445 25.8343 19.8609 26.5388 20.1563C26.386 20.5993 26.2247 21.0237 26.0533 21.4311ZM20.747 0.550401C20.747 1.92571 20.2445 3.20984 19.243 4.39842C18.0344 5.8114 16.5725 6.62789 14.9873 6.49905C14.9671 6.33405 14.9554 6.1604 14.9554 5.97792C14.9554 4.65762 15.5301 3.24464 16.5508 2.08933C17.0604 1.50438 17.7085 1.01801 18.4944 0.630012C19.2787 0.247807 20.0205 0.0364399 20.7181 0.000244141C20.7385 0.184102 20.747 0.367972 20.747 0.550383V0.550401Z"
+                                fill="#CAFF33" />
+                        </svg>
+                    </span>
+                </figure>
+            </div>
+        </div>
+
+    </section>
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="testimonials-section-top d-flex justify-content-between">
+                <span class="left">
+                    <h2 class="section-heading text-white">
+                        Our <span>products</span>
+                    </h2>
+                    <p class="p-detail">Discover a range of comprehensive and customizable banking products at YourBank,
+                        designed to suit your unique financial needs and aspirations</p>
+                </span>
+                <span class="right">
+                    <button class="btn btn-outline-primary rounded-5 auth-btn p-detail">For Individuals</button>
+                    <button class="btn btn-primary rounded-5 auth-btn p-detail">For businesses</button>
+                </span>
+            </div>
+
+
+            <div class="swiper mySwiper mt-5">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card text-center  ">
+                            <div class="d-flex flex-column gap-3 align-items-center px-5">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="">
+                                    <path
+                                        d="M21.2686 47.8235C21.2686 49.2042 20.1493 50.3235 18.7686 50.3235H7.5C6.11929 50.3235 5 49.2042 5 47.8235V38.7161C5 35.4601 5.59494 32.0841 6.77637 28.5911L6.77734 28.5881C7.99294 25.0631 9.63768 21.74 11.7109 18.6194V18.6174C13.5093 15.9252 15.4941 13.588 17.665 11.6086C18.4983 10.8492 19.7275 10.8006 20.6426 11.4104L26.6689 15.426C27.8093 16.1859 28.1137 17.7084 27.4189 18.8655C25.8002 21.5607 24.4085 24.3541 23.2471 27.2463L23.248 27.2473C21.8961 30.6653 21.2337 34.4484 21.2686 38.6028V47.8235ZM48.1484 47.8235C48.1484 49.2042 47.0292 50.3235 45.6484 50.3235H34.3799C32.9992 50.3235 31.8799 49.2042 31.8799 47.8235V38.7161C31.8799 35.4601 32.4739 32.0841 33.6553 28.5911L33.6562 28.5881C34.8718 25.0631 36.5166 21.74 38.5898 18.6194L38.5908 18.6174C40.3891 15.9253 42.3731 13.588 44.5439 11.6086C45.3772 10.8489 46.6073 10.8006 47.5225 11.4104L53.5488 15.426C54.6892 16.1859 54.9935 17.7084 54.2988 18.8655C52.6801 21.5607 51.2884 24.3541 50.127 27.2463L50.1279 27.2473C48.776 30.6653 48.1136 34.4484 48.1484 38.6028V47.8235Z"
+                                        fill="url(#paint0_linear_116_11774)" stroke="#CAFF33" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_116_11774" x1="30.2059" y1="11.0002"
+                                            x2="30.2059" y2="49.8238" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#CAFF33" />
+                                            <stop offset="1" stop-color="#191919" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <p class="p-detail">
+                                    I recently started my own business, and YourBank has been instrumental in helping me
+                                    set up my
+                                    business accounts and secure the financing I needed. Their expert guidance and
+                                    tailored solutions
+                                    have been invaluable.
+                                </p>
+                                <span>John D</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card text-center  ">
+                            <div class="d-flex flex-column gap-3 align-items-center px-5">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="">
+                                    <path
+                                        d="M21.2686 47.8235C21.2686 49.2042 20.1493 50.3235 18.7686 50.3235H7.5C6.11929 50.3235 5 49.2042 5 47.8235V38.7161C5 35.4601 5.59494 32.0841 6.77637 28.5911L6.77734 28.5881C7.99294 25.0631 9.63768 21.74 11.7109 18.6194V18.6174C13.5093 15.9252 15.4941 13.588 17.665 11.6086C18.4983 10.8492 19.7275 10.8006 20.6426 11.4104L26.6689 15.426C27.8093 16.1859 28.1137 17.7084 27.4189 18.8655C25.8002 21.5607 24.4085 24.3541 23.2471 27.2463L23.248 27.2473C21.8961 30.6653 21.2337 34.4484 21.2686 38.6028V47.8235ZM48.1484 47.8235C48.1484 49.2042 47.0292 50.3235 45.6484 50.3235H34.3799C32.9992 50.3235 31.8799 49.2042 31.8799 47.8235V38.7161C31.8799 35.4601 32.4739 32.0841 33.6553 28.5911L33.6562 28.5881C34.8718 25.0631 36.5166 21.74 38.5898 18.6194L38.5908 18.6174C40.3891 15.9253 42.3731 13.588 44.5439 11.6086C45.3772 10.8489 46.6073 10.8006 47.5225 11.4104L53.5488 15.426C54.6892 16.1859 54.9935 17.7084 54.2988 18.8655C52.6801 21.5607 51.2884 24.3541 50.127 27.2463L50.1279 27.2473C48.776 30.6653 48.1136 34.4484 48.1484 38.6028V47.8235Z"
+                                        fill="url(#paint0_linear_116_11774)" stroke="#CAFF33" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_116_11774" x1="30.2059" y1="11.0002"
+                                            x2="30.2059" y2="49.8238" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#CAFF33" />
+                                            <stop offset="1" stop-color="#191919" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <p class="p-detail">
+                                    I recently started my own business, and YourBank has been instrumental in helping me
+                                    set up my
+                                    business accounts and secure the financing I needed. Their expert guidance and
+                                    tailored solutions
+                                    have been invaluable.
+                                </p>
+                                <span>John D</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card text-center  ">
+                            <div class="d-flex flex-column gap-3 align-items-center px-5">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="">
+                                    <path
+                                        d="M21.2686 47.8235C21.2686 49.2042 20.1493 50.3235 18.7686 50.3235H7.5C6.11929 50.3235 5 49.2042 5 47.8235V38.7161C5 35.4601 5.59494 32.0841 6.77637 28.5911L6.77734 28.5881C7.99294 25.0631 9.63768 21.74 11.7109 18.6194V18.6174C13.5093 15.9252 15.4941 13.588 17.665 11.6086C18.4983 10.8492 19.7275 10.8006 20.6426 11.4104L26.6689 15.426C27.8093 16.1859 28.1137 17.7084 27.4189 18.8655C25.8002 21.5607 24.4085 24.3541 23.2471 27.2463L23.248 27.2473C21.8961 30.6653 21.2337 34.4484 21.2686 38.6028V47.8235ZM48.1484 47.8235C48.1484 49.2042 47.0292 50.3235 45.6484 50.3235H34.3799C32.9992 50.3235 31.8799 49.2042 31.8799 47.8235V38.7161C31.8799 35.4601 32.4739 32.0841 33.6553 28.5911L33.6562 28.5881C34.8718 25.0631 36.5166 21.74 38.5898 18.6194L38.5908 18.6174C40.3891 15.9253 42.3731 13.588 44.5439 11.6086C45.3772 10.8489 46.6073 10.8006 47.5225 11.4104L53.5488 15.426C54.6892 16.1859 54.9935 17.7084 54.2988 18.8655C52.6801 21.5607 51.2884 24.3541 50.127 27.2463L50.1279 27.2473C48.776 30.6653 48.1136 34.4484 48.1484 38.6028V47.8235Z"
+                                        fill="url(#paint0_linear_116_11774)" stroke="#CAFF33" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_116_11774" x1="30.2059" y1="11.0002"
+                                            x2="30.2059" y2="49.8238" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#CAFF33" />
+                                            <stop offset="1" stop-color="#191919" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <p class="p-detail">
+                                    I recently started my own business, and YourBank has been instrumental in helping me
+                                    set up my
+                                    business accounts and secure the financing I needed. Their expert guidance and
+                                    tailored solutions
+                                    have been invaluable.
+                                </p>
+                                <span>John D</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card text-center  ">
+                            <div class="d-flex flex-column gap-3 align-items-center px-5">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="">
+                                    <path
+                                        d="M21.2686 47.8235C21.2686 49.2042 20.1493 50.3235 18.7686 50.3235H7.5C6.11929 50.3235 5 49.2042 5 47.8235V38.7161C5 35.4601 5.59494 32.0841 6.77637 28.5911L6.77734 28.5881C7.99294 25.0631 9.63768 21.74 11.7109 18.6194V18.6174C13.5093 15.9252 15.4941 13.588 17.665 11.6086C18.4983 10.8492 19.7275 10.8006 20.6426 11.4104L26.6689 15.426C27.8093 16.1859 28.1137 17.7084 27.4189 18.8655C25.8002 21.5607 24.4085 24.3541 23.2471 27.2463L23.248 27.2473C21.8961 30.6653 21.2337 34.4484 21.2686 38.6028V47.8235ZM48.1484 47.8235C48.1484 49.2042 47.0292 50.3235 45.6484 50.3235H34.3799C32.9992 50.3235 31.8799 49.2042 31.8799 47.8235V38.7161C31.8799 35.4601 32.4739 32.0841 33.6553 28.5911L33.6562 28.5881C34.8718 25.0631 36.5166 21.74 38.5898 18.6194L38.5908 18.6174C40.3891 15.9253 42.3731 13.588 44.5439 11.6086C45.3772 10.8489 46.6073 10.8006 47.5225 11.4104L53.5488 15.426C54.6892 16.1859 54.9935 17.7084 54.2988 18.8655C52.6801 21.5607 51.2884 24.3541 50.127 27.2463L50.1279 27.2473C48.776 30.6653 48.1136 34.4484 48.1484 38.6028V47.8235Z"
+                                        fill="url(#paint0_linear_116_11774)" stroke="#CAFF33" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_116_11774" x1="30.2059" y1="11.0002"
+                                            x2="30.2059" y2="49.8238" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#CAFF33" />
+                                            <stop offset="1" stop-color="#191919" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <p class="p-detail">
+                                    I recently started my own business, and YourBank has been instrumental in helping me
+                                    set up my
+                                    business accounts and secure the financing I needed. Their expert guidance and
+                                    tailored solutions
+                                    have been invaluable.
+                                </p>
+                                <span>John D</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+   
+</body>
+
+</html>

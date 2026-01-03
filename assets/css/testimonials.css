@@ -1,6 +1,10 @@
 /* ================================
    Testimonials Section
 ================================ */
+.container {
+  max-width: 1596px;
+  width: 100%;
+}
 
 .testimonials-section {
   overflow-x: hidden;
